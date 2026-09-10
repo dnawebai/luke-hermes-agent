@@ -1,0 +1,14 @@
+model:
+  provider: together
+  default: meta-llama/Llama-3.3-70B-Instruct-Turbo
+
+providers:
+  together:
+    api: https://api.together.xyz/v1
+    key_env: TOGETHER_API_KEY
+
+api_server:
+  enabled: true
+
+memory:
+  enabled: true
