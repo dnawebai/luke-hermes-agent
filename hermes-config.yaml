@@ -12,3 +12,5 @@ api_server:
 
 memory:
   enabled: true
+
+# start-hermes.sh appends `skills` and `mcp_servers` sections when OPENSEO_API_KEY is set; don't add those keys here.
