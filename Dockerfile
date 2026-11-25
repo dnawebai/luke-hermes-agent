@@ -40,6 +40,7 @@ RUN curl -fsSL --retry 3 \
 RUN mkdir -p /opt/luke-hermes /opt/data
 COPY hermes-config.yaml /opt/luke-hermes/config.yaml
 COPY start-hermes.sh /opt/luke-hermes/start-hermes.sh
+COPY skills/openseo /opt/luke-hermes/skills/openseo
 RUN chmod 0755 /opt/luke-hermes/start-hermes.sh
 
 EXPOSE 8642

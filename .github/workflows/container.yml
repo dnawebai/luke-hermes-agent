@@ -7,6 +7,7 @@ on:
       - Dockerfile
       - hermes-config.yaml
       - start-hermes.sh
+      - skills/**
       - .github/workflows/container.yml
   workflow_dispatch:
 
